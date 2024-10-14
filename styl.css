@@ -24,7 +24,7 @@ nav h1 {
 }
 
 .download-btn {
-    background-color: #000;
+    background-color: #f5f5f5;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -157,3 +157,6 @@ footer .social-icons {
     vertical-align: middle;
 }
 
+.header{
+    background-image: url(./assets/Group.png);
+}
