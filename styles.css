@@ -58,7 +58,7 @@ nav {
 
 .kala{
     background-image: url(./assets/Hero-bg.png);
-    width: 1450px;
+    width: 1460px;
     height: 666px;
 }
 
@@ -96,7 +96,7 @@ nav {
 .first-para{
     font-family: "Azeret Mono", monospace; 
     font-size: 16px;
-    opacity: 0.5;
+    opacity: 0.7;
     padding-top: 0px;
     margin: 00px;
     margin-bottom: 10px;
@@ -106,27 +106,84 @@ nav {
     margin-top: 50px;
 }
 
+
+/* main */
+main{
+
+    max-width: 1260px;
+    height: 1250px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    margin-top: 90px;
+    border-radius: 15px;
+    /* margin: auto; */
+    /* padding: 10px 20px 20px 10px; */
+}
+
+
 /* why web development */
 
-.outer1{
-    margin-left: 20%;
-    margin-right: 15%;
+.why{
+    font-family: "Azeret Mono", monospace;    
+    font-size: 32px;
+}
+
+.upper{
+    text-align: center;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 20px;
+    background-color: rgb(251, 251, 251);
+    margin: 40px;
+    margin-top: 200px;
+    /* border-radius: 50px; */
+    border: 20px;
+}
+
+
+.basic-line{
+    font-family: "Azeret Mono", monospace;    
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+
+.second-upper{
     
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px 30px 20px;
+    background-color:rgb(251, 251, 251);
+    margin: 40px;
+    /* margin-top: 200px; */
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    padding-left: 70px;
+    
+}
+
+.content{
+    width: 477px;
+    height: 220px;
 
 }
 
-.upper-web{
-    width: 850px;
-    height: 113px;
-    padding: 30px;
-    text-align: center; 
-
+.dibba{
+    font-family: "Azeret Mono", monospace;    
+    font-size: 15px;
+    opacity: 0.7; 
+    border-radius: 2px;
+    width: 165px;
+    height: 45px;
 }
 
-.web-title{
-    font-family: "Azeret Mono", monospace; 
-    
-    font-size: 30px;
-    width: 850px;
-    height: 98px;  
+#shared-pad{
+    padding-bottom: 20px;
+}
+
+
+.img{
+    padding-right: 30px;
 }
