@@ -1,0 +1,233 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.download-btn {
+    background-color: #f5f5f5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.intro h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+.intro p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Why Web Development Section */
+.why-webdev {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.why-webdev h2 {
+    font-size: 2rem;
+}
+
+.why-webdev .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.why-webdev div {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Inspiration Section */
+.inspiration {
+    padding: 40px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+/* Target Section */
+.targets, .next-target {
+    padding: 40px;
+    text-align: center;
+}
+
+.target-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Support Section */
+.support {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.support input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin: 10px 0;
+}
+
+.support button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons {
+    margin: 10px 0;
+}
+
+/* Social Icon Styles */
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons img.social-icon {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+}
+
+.header{
+    background-image: url(./assets/Group.png);
+}
+
+.lala{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.kala{
+    background-image: url(./assets/Hero-bg.png);
+}
+
+.heading{
+    font-family: "Azeret Mono", monospace; 
+    
+    font-size: 30px;
+    width: 980px;
+    height: 98px; 
+    font-display: bolder; 
+    text-align: center;
+    padding-left: 8%;
+
+}
+
+.para{
+    font-family: "Azeret Mono", monospace; 
+    font-size: 16px;
+    opacity: 0.7;
+    padding-top: 0px;
+    margin: 00px;
+    margin-bottom: 10px;
+
+}
+
+.outer{
+    background-color: #f5f5f5;
+    margin: 30px  6%;
+
+
+}
+.upper{
+    text-align: center;
+    row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 20px;
+    background-color: #f5f5f5;
+    margin: 30px  6%;
+}
+
+.second-upper{
+    display: flex;
+    margin: 200px;
+    align-items: center;
+    
+}
+
+.wev-dev{
+    font-family: "Azeret Mono", monospace; 
+    
+    font-size: 30px;
+    width: 980px;
+    height: 98px; 
+    font-display: bolder; 
+    margin: 20px;
+    padding-left: 20px;
+  
+
+}
