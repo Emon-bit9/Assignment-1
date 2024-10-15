@@ -108,8 +108,20 @@ nav {
 
 
 /* main */
-main{
+/* main{
 
+    max-width: 1260px;
+    height: 1250px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    margin-top: 90px;
+    border-radius: 15px;
+    /* margin: auto; */
+    /* padding: 10px 20px 20px 10px; 
+}
+*/
+
+.super{
     max-width: 1260px;
     height: 1250px;
     margin: 0 auto;
@@ -120,22 +132,22 @@ main{
     /* padding: 10px 20px 20px 10px; */
 }
 
-
 /* why web development */
 
 .why{
     font-family: "Azeret Mono", monospace;    
     font-size: 32px;
+    font-weight:800;
 }
 
 .upper{
-    text-align: center;
-   
+    text-align: center; 
     justify-content: center;
     align-items: center;
     padding: 20px 30px 20px;
     background-color: rgb(251, 251, 251);
     margin: 40px;
+    margin-bottom: auto;
     margin-top: 200px;
     /* border-radius: 50px; */
     border: 20px;
@@ -187,3 +199,275 @@ main{
 .img{
     padding-right: 30px;
 }
+
+/* 2nd part */
+
+.next-super{
+    max-width: 1260px;
+    /* height: 1250px; */
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 5px;
+    border-radius: 15px;
+
+}
+
+.next-upper{
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px 200px 20px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 40px;
+    margin-top: 200px;
+    /* border-radius: 50px; */
+    border: 20px;
+    max-width: 860px;
+    height: 115px;
+    margin-bottom: 100px;
+
+} 
+
+.first-para-2{
+    
+    /* font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    opacity: 0.7;
+    padding-top: 0px;
+    margin: 00px;
+    margin-bottom: 10px; */
+    font-family: "Azeret Mono", monospace; 
+    font-size: 16px;
+    opacity: 0.7;
+    padding-top: 0px;
+    margin: 00px;
+    margin-bottom: 10px;
+
+}
+
+.vido{
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px 50px 20px;
+    background-color:rgb(255, 255, 255);
+    margin: 40px;
+    /* margin-top: 200px; */
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* padding-left: 70px; */
+    width: 1065px;
+    height: 570px;
+    border: #c8cdd7;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.iframe{
+    border-radius: 20px;
+}
+
+
+.next-next-super{
+    max-width: 1260px;
+    /* height: 1250px; */
+    margin: 0 auto;
+    background-color: #ffffff;
+    /* margin-top: 5px; */
+    border-radius: 15px;
+    padding-top: 0%;
+
+}
+
+
+.skill-name{
+    font-family: "Azeret Mono", monospace;    
+    font-size: 24px;
+    font-weight:800;
+    font-size:x-large;
+    
+}
+
+
+
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.skill{
+
+    align-items: center;
+    display: inline;
+    padding: 30px 20px 20px;
+    background-color:rgb(255, 255, 255);
+    margin: 20px;
+    /* margin-top: 200px; */
+    
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* padding-left: 70px; */
+    width: 1065px;
+    height: 270px;
+    border: #c8cdd7;
+    border-radius: 20px;
+    /* background-color: #d49e91; */
+    
+}
+
+
+.first-col{
+    background-color:rgba(255, 76, 30, 0.05);
+}
+
+.second-col{
+    background-color: rgba(0, 76, 232, 0.05);
+
+}
+.last-col{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* last part */
+.last-next-super{
+    background-image: url(./assets/handshake.jpg);
+    max-width: 1260px;
+    border-top: 20px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    /* margin-top: 5px; */
+    border-radius: 15px;
+    padding-top: 0%;
+}
+
+.last-next-upper{
+    max-width: 1260px;
+    /* height: 1250px; */
+    margin: 0 auto;
+    
+    /* margin-top: 5px; */
+    border-radius: 15px;
+    padding-top: 10px;
+    color: #ffffff;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.last-why{
+    font-family: "Azeret Mono", monospace;    
+    font-size: 32px;
+    font-weight:bold;
+    color: #ffffff;
+}
+
+.feedback-form {
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: auto;
+    font-size: 32px;
+
+}
+
+#suggest{
+    padding: 20px, 20px;
+    width: 550px;
+    height: 59px;
+    border-radius: 9px;
+
+}
+
+#sub{
+    font-weight: 300px;
+    font-weight: semibold;
+    box-sizing: border-box;      
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    gap: 30px;
+    background-color: rgb(253, 253, 253);   
+    text-align: justify;
+    opacity: 0.9;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+}
+
+/* footer */
+
+/* .footer{
+    display: flex;
+    height: 5px;
+    background-color: rgba(13, 19, 33, 0.03);
+    font-weight: 700;
+
+    justify-items: auto;
+    padding: 80px 50px;
+    margin-top: 20px;
+
+}
+
+.footer-first-para-2{
+    font-family: "Azeret Mono", monospace; 
+    font-weight: 456px;
+    height: 23px;
+
+    padding-top: 0px;
+ 
+    margin-bottom: 10px;
+
+}
+
+.social{
+    list-style: none;
+    padding-left: 200px;
+    padding-right: 10px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: rgb(253, 253, 253);   
+    text-align: justify;
+    
+  
+} */
+
+/* Footer styling */
+footer {
+    background-color: #f4f4f4; /* Light background */
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-text {
+    font-family: "Azeret Mono", monospace;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+    margin-right: 20px; /* Add space between the text and icons */
+}
+
+.social-icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
