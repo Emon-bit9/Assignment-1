@@ -160,3 +160,16 @@ footer .social-icons {
 .header{
     background-image: url(./assets/Group.png);
 }
+
+.lala{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.kala{
+    background-image: url(./assets/Hero-bg.png);
+}
